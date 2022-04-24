@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 2,
+  "passes": 2,
+  "pending": 0,
+  "failures": 0,
+  "start": "2022-04-22T11:44:38.406Z",
+  "duration": 20523,
+  "file": "cypress/integration/Google.feature"
+}

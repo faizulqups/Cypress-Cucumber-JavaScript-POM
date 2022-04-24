@@ -1,0 +1,11 @@
+.idea/
+
+cypress/reports/
+node_modules/
+
+allure-results/
+allure-report/
+videos/
+
+package-lock.json
+
