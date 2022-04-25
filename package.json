@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cy:run": "cypress run --browser chrome --headless --env allure=true --env NO_COLOR=1",
+    "cy:run": "cypress run --browser chrome --headless --env allure=true --reporter mochawesome",
     "cy:parallel": "cypress-parallel -s cy:run -t 4 -d \"cypress/integration/*.feature\" -a false",
     "cy:allure:mochawesome": "npx cypress run --env allure=true --reporter mochawesome",
     "cy:allure:save": "allure generate allure-results --clean -o allure-report"
